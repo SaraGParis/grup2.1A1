@@ -6,8 +6,7 @@ body {
     margin: 40px;
     padding: 0;
     margin-top: 40px;
-    
-    background-image: url("/pics/landscape.jpg");
+    background-image: url("landscape.jpg");
     background-attachment: fixed;
 }
 /* Estils per a la navbar */
@@ -106,5 +105,6 @@ img {
     display: block !important;
 
 }
+
 
 
