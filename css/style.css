@@ -6,6 +6,7 @@ body {
     margin: 40px;
     padding: 0;
     margin-top: 40px;
+    background-color: purple
     background-image: url("/pics/landscape.jpg");
     background-attachment: fixed;
 }
@@ -103,4 +104,5 @@ img {
     margin-top: auto !important;
     margin-bottom: auto !important;
     display: block !important;
+
 }
