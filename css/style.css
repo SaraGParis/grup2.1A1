@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+    margin-top: 40px;
+    background-image: url("/pics/landscape.jpg");
+    background-attachment: fixed;
+}
+/* Estils per a la navbar */
+nav {
+    display: flex;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav div {
+    list-style-type: none;
+    background-color: #630000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: fixed;
+    justify-content: left;
+    top: 0;
+    width: 100%;
+}
+
+nav div a {
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+}
+nav div ul li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    fill: #007bff;
+    font-weight: bold;
+}
+
+.navbar-item:hover {
+    color: aliceblue;
+}
+/* Estils per al contenidor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.carousel-inner {
+    padding-top: 45px;
+}
+
+#section1 {
+    padding-top: 65px;
+}
+
+#section2 {
+    padding-top: 65px;
+}
+
+#section3 {
+   padding-top: 65px;
+   border-radius: 30px; 
+}
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    
+    border-radius: 8px;
+}
+
+/* Estils per a títols i paràgrafs */
+h1,
+h2 {
+    color: #fff8f8;
+}
+
+p {
+    color: #111;
+}
+
+img {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    display: block !important;
+}

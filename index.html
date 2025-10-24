@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#section0" style="color: aliceblue;">VIDEOJUEGOS</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: aliceblue;">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1" style="color: aliceblue;">Juegos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2" style="color: aliceblue;">Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3" style="color: aliceblue;">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container text-center">
+        <div class="row align-items-start">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="pics/carousel1.jpg" class="d-block w-100" alt="..." style="width: 256px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/carousel2.jpg" class="d-block w-100" alt="..." style="width: 256px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/carousel3.jpg" class="d-block w-100" alt="..." style="width: 256px;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container" section id="section1">
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/assassins-creed-shadows.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"> <b>Fecha de estreno</b>: 20 de marzo de 2025</p>
+                        <p><b>Soportes</b>: PS5, Xbox Series X|S, PC</p>
+                        <p><b>Sinopsis</b>: <i>Assassin's Creed Shadows</i> llevará a los jugadores a una nueva era en
+                            la que los Asesinos deberán enfrentarse a una amenaza mucho más oscura y peligrosa que
+                            nunca. Ambientado en Japón de la era Sengoku, la trama se centra en secretos, conspiraciones
+                            y grandes batallas.</p>
+                    </div>
+                    <div class="col">
+                        <a class="icon-link" href="https://youtu.be/vovkzbtYBC8" target="_blank">
+                            <img src="pics/assassins-creed-shadows-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/final-fantasy-rebirth.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"> <b>Fecha de estreno</b>: 23 de enero de 2025</p>
+                        <p><b>Soportes</b>: PS5, Xbox Series X|S, Switch 2, PC</p>
+                        <p><b>Sinopsis</b>: Dejando atrás a Midgar y liberado del curso del destino, Cloud y sus
+                            amigos se embarcan en un nuevo viaje a través del planeta Gaia, mientras les esperan
+                            amenazas peligrosas, antiguas y nuevas. Secuela de <i>Final Fantasy VII Remake</i>.</p>
+                    </div>
+                    <div class="col">
+                        <a class="icon-link" href="https://youtu.be/KOhs9ZLImgE" target="_blank">
+                            <img src="pics/final-fantasy-rebirth-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/spider-man-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"><b>Fecha de estreno</b>: 30 de enero de 2025</p>
+                        <p><b>Soportes</b>: PS5, PC</p>
+                        <p><b>Sinopsis</b>: En <i>Spider-Man 2</i> volvemos a encontrarnos ante una aventura de
+                            acción y mundo abierto.
+                            Alternando el avatar entre Peter Parker y Miles Morales, los jugadores tendrán que parar
+                            a Kraven, un despiadado cazador que no se conforma con dar caza a simples bestias y que
+                            comienza a sembrar el caos por toda la ciudad junto a su grupo de seguidores.</p>
+                    </div>
+                    <div class="col">
+                        <a class="icon-link"
+                            href="https://www.youtube.com/watch?v=9fVYKsEmuRo&pp=ygUZc3BpZGVyIG1hbiAyIGdhbWUgdHJhaWxlcg%3D%3D"
+                            target="_blank">
+                            <img src="pics/spider-man-2-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/date-everything.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"><b>Fecha de estreno</b>: 17 de junio de 2025</p>
+                        <p><b>Soportes</b>: Switch, Xbox Series X|S, PS5, PC</p>
+                        <p><b>Sinopsis</b>: Las Dateviators son un prototipo de gafas que pueden transformar
+                            casi cualquier cosa que imaginemos en un posible interés amoroso. Aquí, los objetos
+                            alcanzados por nuestros rayos de amor científicos se antropomorfizarán y se
+                            convertirán en representaciones humanas. Podremos recorrer las 2 plantas enteras de
+                            nuestra casa despertando nuevos pretendientes, y al hablar con ellos iremos ganando
+                            diferentes niveles de confianza que podrán acabar desembocando en tres posibles
+                            estados: Amor, Amistad y Odio.</p>
+                    </div>
+                    <div class="col">
+                        <a class="icon-link" href="https://youtu.be/lAolvQlDgD0" target="_blank">
+                            <img src="pics/date-everything-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/split-fiction.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"> <b>Fecha de estreno</b>: 6 de marzo de 2025</p>
+                        <p><b>Soportes</b>: PS5, Xbox Series X|S, Switch 2, PC</p>
+                        <p><b>Sinopsis</b>: En <i>Split Fiction</i>, y en un futuro cercano, el editor Rader
+                            ha desarrollado una máquina revolucionaria capaz de dar vida a las historias y
+                            permitir que sus autores las experimenten en primera persona. Para probar su
+                            invento, invita a varios aspirantes a escritores. Pero cuando activan la
+                            máquina, algo sale mal y sus relatos de ciencia ficción y fantasía se fusionan
+                            de forma inesperada. Atrapadas en esta simulación, ambas deben colaborar para
+                            sobrevivir y desentrañar los secretos que Rader ha estado ocultando a sus
+                            sujetos de prueba.</p>
+
+                    </div>
+                    <div class="col">
+                        <a class="icon-link" href="https://youtu.be/9CWilpm49rU" target="_blank">
+                            <img src="pics/split-fiction-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/avowed.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"><b>Fecha de estreno</b>: 18 de febrero de 2025</p>
+                        <p><b>Soportes</b>: Xbox Series X|S, PC</p>
+                        <p><b>Sinopsis</b>: <i>Avowed</i> nos lleva de nuevo al mundo de Eora, donde se
+                            nos pone en la piel de un enviado del Imperio Aedyr que debe de acudir a las
+                            Tierras Vivientes para investigar una extraña plaga que está afectando a los
+                            habitantes de esta nueva zona... que el imperio quiere acabar anexionándose
+                            y controlando a todos los niveles.</p>
+                    </div>
+                    <div class="col">
+                        <a class="icon-link" href="https://youtu.be/YlsQ9udhZNA" target="_blank">
+                            <img src="pics/avowed-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/elder-scrolls-iv.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"><b>Fecha de estreno</b>: 22 de abril de 2025</p>
+                        <p><b>Soportes</b>: PS5, Xbox Series X|S, PC</p>
+                        <p><b>Sinopsis</b>: <i>The Elder Scrolls IV: Oblivion Remastered</i>
+                            moderniza el Juego del Año de 2006 con nuevos gráficos y una jugabilidad
+                            mejorada. Explora el vasto paisaje de Cyrodiil como nunca e impide que
+                            las fuerzas de Oblivion usurpen el territorio.</p>
+                    </div>
+                    <div class="col">
+                        <a class="icon-link" href="https://youtu.be/wFJ3PZuAjK4" target="_blank">
+                            <img src="pics/elder-scrolls-iv-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/hades-ii.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"><b>Fecha de estreno</b>: 25 de septiembre de
+                            2025</p>
+                        <p><b>Soportes</b>: Switch, PC</p>
+                        <p><b>Sinopsis</b>: La muerte es aquello que define a Hades, Dios de la
+                            mitología griega. Sin embargo, la experiencia de <i>Hades II</i>
+                            demuestra que la muerte no es el final, sino el principio de algo.
+                            Mueres, te reinventas y llegar un poquito más lejos. Mueres y
+                            revives, en un bucle que parece no tener fin, como si el tiempo y el
+                            espacio convergieran constantemente.</p>
+                    </div>
+                    <div class="col">
+                        <a class="icon-link" href="https://youtu.be/qC7rCUbExzE" target="_blank">
+                            <img src="pics/hades-ii-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/persona-5-phantom-x.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"><b>Fecha de estreno</b>: 26 de junio de
+                            2025</p>
+                        <p><b>Soportes</b>: PC</p>
+                        <p><b>Sinopsis</b>: El protagonista, Ren Amamiya, se convierte en el líder de los “Ladrones
+                            Fantasma”, un grupo de justicieros. Le acompañan compañeros de instituto Ryuji Sakamoto y
+                            Ann Takamaki, así como por Morgana, una criatura del Metaverso con forma de gato.
+                            Juntos, son acorralados por la policía en un casino y Ren es capturado y aprende que uno de
+                            los suyos le ha traicionado. En la sala de interrogaciones, Ren cuenta su historia, y ahí
+                            comienza la aventura del juego.
+                    </div>
+                    <div class="col">
+                        <a class="icon-link" href="https://youtu.be/eWGCz4_IBiw" target="_blank">
+                            <img src="pics/persona-5-phantom-x-trailer.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" section id="section2">
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/assassins-creed-shadows-poster.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"> <b>TORNEO ABIERTO DE <i>ASSASSIN'S CREED SHADOWS</i></b></p>
+                        <p><b>Descripción</b>: apúntate y lucha contra otros jugadores y contra el reloj para superar la
+                            Prueba del Torneo en el juego lo más rápido posible con éxito.</p>
+                        <p><b>Día y hora</b>: Sábado y Domingo de 11 a 14 en la Zona de Monitores.</p>
+                        <p><b>Inscripciones</b> abiertas ambos días hasta las 10 horas del mismo día.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/persona-5-phantom-x-poster.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"> <b>PONENCIA Y DEMOSTRACIÓN EN VIVO DE SHIGENORI SOEJIMA</b>, director
+                            artístico de <i>Persona 5: Phantom X</i></p>
+                        <p><b>Descripción</b>: Shigenori Soejima nos cuenta y demuestra su proceso creativo en la
+                            producción de <i>Persona 5: Phantom X</i>. Ven y observa su proceso en directo mientras
+                            habla de ello. Una másterclass en directo de una bestia de la industria.</p>
+                        <p><b>Día y hora</b>: Sábado a las 12 en el Main Stage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/sassy-chap-games.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"> <b>PONENCIA Y Q&A DE RAY CHASE, ROBBIE DAYMOND Y MAX MITTLEMAN</b>,
+                            creadores de <i>Date Everything</i></p>
+                        <p><b>Descripción</b>: Los fundadores del estudio Sassy Chap Games vienen a hablarnos de su
+                            nuevo juego <i>Date Everything</i>. Ven a verlos, escucha sus curiosidades y experiencias y
+                            después...pregunta tus dudas en la ronda de preguntas del público.</p>
+                        <p><b>Día y hora</b>: Domingo a las 11 en el Main Stage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(255, 255, 255, 0.7);">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="pics/split-fiction-poster.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="text-md-start"> <b>TORNEO EN PAREJAS DE <i>SPLIT FICTION</i></b></p>
+                        <p><b>Descripción</b>: ¿Tienes a un compi de juegos y os mola <i>Split Fiction</i>? Apúntate
+                            al torneo por parejas y bátete contra otras parejas y contra el reloj para conseguir
+                            vuestros objetivos.</p>
+                        <p><b>Día y hora</b>: Sábado y Domingo de 15 a 18 en la Zona de Monitores.</p>
+                        <p><b>Inscripciones</b> abiertas ambos días hasta las 14 horas del mismo día.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" section id="section3">
+            <form class="row g-3" style="background: rgba(215, 170, 215, 0.7);">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Email</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="inputAddress2">
+                </div>
+                <div class="col-12">
+                    <label for="inputCity" class="form-label">Comentario</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            He leído y acepto el Aviso Legal y Política de Privacidad
+                        </label>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
